@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
       <p><img src={logo} className="App-logo" alt="logo" style={{height: 200, width: 200}} /><br/></p>
         <p>
-          Welcome to HelpAidAfrica - Box Tracking Client
+          Welcome to HelpAidAfrica - Box Tracking Client (dev)
         </p>
       </header>
     </div>
