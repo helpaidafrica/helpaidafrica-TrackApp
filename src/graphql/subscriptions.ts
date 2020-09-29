@@ -1,0 +1,4579 @@
+/* tslint:disable */
+/* eslint-disable */
+// this is an auto generated file. This will be overwritten
+
+export const onCreateImage = /* GraphQL */ `
+  subscription OnCreateImage {
+    onCreateImage {
+      id
+      label
+      altText
+      src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+    }
+  }
+`;
+export const onUpdateImage = /* GraphQL */ `
+  subscription OnUpdateImage {
+    onUpdateImage {
+      id
+      label
+      altText
+      src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+    }
+  }
+`;
+export const onDeleteImage = /* GraphQL */ `
+  subscription OnDeleteImage {
+    onDeleteImage {
+      id
+      label
+      altText
+      src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+    }
+  }
+`;
+export const onCreateBoxCategory = /* GraphQL */ `
+  subscription OnCreateBoxCategory {
+    onCreateBoxCategory {
+      id
+      name
+      isActive
+      createdAt
+      updatedAt
+      boxes {
+        items {
+          id
+          title
+          contents
+          size
+          orgID
+          shipmentID
+          boxCategoryID
+          isActive
+          barCode
+          qrCode
+          barCodePhoto
+          qrCodePhoto
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onUpdateBoxCategory = /* GraphQL */ `
+  subscription OnUpdateBoxCategory {
+    onUpdateBoxCategory {
+      id
+      name
+      isActive
+      createdAt
+      updatedAt
+      boxes {
+        items {
+          id
+          title
+          contents
+          size
+          orgID
+          shipmentID
+          boxCategoryID
+          isActive
+          barCode
+          qrCode
+          barCodePhoto
+          qrCodePhoto
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onDeleteBoxCategory = /* GraphQL */ `
+  subscription OnDeleteBoxCategory {
+    onDeleteBoxCategory {
+      id
+      name
+      isActive
+      createdAt
+      updatedAt
+      boxes {
+        items {
+          id
+          title
+          contents
+          size
+          orgID
+          shipmentID
+          boxCategoryID
+          isActive
+          barCode
+          qrCode
+          barCodePhoto
+          qrCodePhoto
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onCreateApihealthCheckInfo = /* GraphQL */ `
+  subscription OnCreateApihealthCheckInfo {
+    onCreateApihealthCheckInfo {
+      id
+      status
+      isActive
+      proceed
+      message
+      lastUpdated
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onUpdateApihealthCheckInfo = /* GraphQL */ `
+  subscription OnUpdateApihealthCheckInfo {
+    onUpdateApihealthCheckInfo {
+      id
+      status
+      isActive
+      proceed
+      message
+      lastUpdated
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onDeleteApihealthCheckInfo = /* GraphQL */ `
+  subscription OnDeleteApihealthCheckInfo {
+    onDeleteApihealthCheckInfo {
+      id
+      status
+      isActive
+      proceed
+      message
+      lastUpdated
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onCreateAddress = /* GraphQL */ `
+  subscription OnCreateAddress {
+    onCreateAddress {
+      id
+      label
+      addressLine1
+      addressLine2
+      city
+      state
+      province
+      zipCode
+      postalCode
+      country
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onUpdateAddress = /* GraphQL */ `
+  subscription OnUpdateAddress {
+    onUpdateAddress {
+      id
+      label
+      addressLine1
+      addressLine2
+      city
+      state
+      province
+      zipCode
+      postalCode
+      country
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onDeleteAddress = /* GraphQL */ `
+  subscription OnDeleteAddress {
+    onDeleteAddress {
+      id
+      label
+      addressLine1
+      addressLine2
+      city
+      state
+      province
+      zipCode
+      postalCode
+      country
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onCreatePhone = /* GraphQL */ `
+  subscription OnCreatePhone {
+    onCreatePhone {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onUpdatePhone = /* GraphQL */ `
+  subscription OnUpdatePhone {
+    onUpdatePhone {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onDeletePhone = /* GraphQL */ `
+  subscription OnDeletePhone {
+    onDeletePhone {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const onCreateOrg = /* GraphQL */ `
+  subscription OnCreateOrg {
+    onCreateOrg {
+      id
+      name
+      description
+      addressID
+      email
+      primaryPhone {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      otherPhones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      primaryDomain
+      privacyPolicy
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      notes
+      isActive
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxes {
+        items {
+          id
+          title
+          contents
+          size
+          orgID
+          shipmentID
+          boxCategoryID
+          isActive
+          barCode
+          qrCode
+          barCodePhoto
+          qrCodePhoto
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+      users {
+        items {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onUpdateOrg = /* GraphQL */ `
+  subscription OnUpdateOrg {
+    onUpdateOrg {
+      id
+      name
+      description
+      addressID
+      email
+      primaryPhone {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      otherPhones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      primaryDomain
+      privacyPolicy
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      notes
+      isActive
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxes {
+        items {
+          id
+          title
+          contents
+          size
+          orgID
+          shipmentID
+          boxCategoryID
+          isActive
+          barCode
+          qrCode
+          barCodePhoto
+          qrCodePhoto
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+      users {
+        items {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onDeleteOrg = /* GraphQL */ `
+  subscription OnDeleteOrg {
+    onDeleteOrg {
+      id
+      name
+      description
+      addressID
+      email
+      primaryPhone {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      otherPhones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      primaryDomain
+      privacyPolicy
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      notes
+      isActive
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxes {
+        items {
+          id
+          title
+          contents
+          size
+          orgID
+          shipmentID
+          boxCategoryID
+          isActive
+          barCode
+          qrCode
+          barCodePhoto
+          qrCodePhoto
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+      users {
+        items {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onCreateLocationInfo = /* GraphQL */ `
+  subscription OnCreateLocationInfo {
+    onCreateLocationInfo {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onUpdateLocationInfo = /* GraphQL */ `
+  subscription OnUpdateLocationInfo {
+    onUpdateLocationInfo {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onDeleteLocationInfo = /* GraphQL */ `
+  subscription OnDeleteLocationInfo {
+    onDeleteLocationInfo {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onCreateShipment = /* GraphQL */ `
+  subscription OnCreateShipment {
+    onCreateShipment {
+      id
+      name
+      description
+      isActive
+      startDate
+      deliveryDate
+      startLocationID
+      destinationLocationID
+      shipmentNotes
+      deliveryNotes
+      trackingId
+      weight
+      shipmentReceiver
+      status
+      statusHistory
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      startLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      destinationLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      boxes {
+        items {
+          id
+          title
+          contents
+          size
+          orgID
+          shipmentID
+          boxCategoryID
+          isActive
+          barCode
+          qrCode
+          barCodePhoto
+          qrCodePhoto
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onUpdateShipment = /* GraphQL */ `
+  subscription OnUpdateShipment {
+    onUpdateShipment {
+      id
+      name
+      description
+      isActive
+      startDate
+      deliveryDate
+      startLocationID
+      destinationLocationID
+      shipmentNotes
+      deliveryNotes
+      trackingId
+      weight
+      shipmentReceiver
+      status
+      statusHistory
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      startLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      destinationLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      boxes {
+        items {
+          id
+          title
+          contents
+          size
+          orgID
+          shipmentID
+          boxCategoryID
+          isActive
+          barCode
+          qrCode
+          barCodePhoto
+          qrCodePhoto
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onDeleteShipment = /* GraphQL */ `
+  subscription OnDeleteShipment {
+    onDeleteShipment {
+      id
+      name
+      description
+      isActive
+      startDate
+      deliveryDate
+      startLocationID
+      destinationLocationID
+      shipmentNotes
+      deliveryNotes
+      trackingId
+      weight
+      shipmentReceiver
+      status
+      statusHistory
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      startLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      destinationLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      boxes {
+        items {
+          id
+          title
+          contents
+          size
+          orgID
+          shipmentID
+          boxCategoryID
+          isActive
+          barCode
+          qrCode
+          barCodePhoto
+          qrCodePhoto
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onCreateBox = /* GraphQL */ `
+  subscription OnCreateBox {
+    onCreateBox {
+      id
+      title
+      contents
+      size
+      orgID
+      shipmentID
+      boxCategoryID
+      additionalBoxCategories {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+        boxes {
+          nextToken
+        }
+      }
+      isActive
+      barCode
+      qrCode
+      barCodePhoto
+      qrCodePhoto
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      boxCategory {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+        boxes {
+          nextToken
+        }
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryPhone {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        otherPhones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        notes
+        isActive
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxes {
+          nextToken
+        }
+        users {
+          nextToken
+        }
+      }
+      shipment {
+        id
+        name
+        description
+        isActive
+        startDate
+        deliveryDate
+        startLocationID
+        destinationLocationID
+        shipmentNotes
+        deliveryNotes
+        trackingId
+        weight
+        shipmentReceiver
+        status
+        statusHistory
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        startLocation {
+          id
+          locationLabel
+          latitude
+          longitude
+          isActive
+          addressID
+          plusCode
+          website
+          notes
+          notesHistory
+          tags
+          createdAt
+          updatedAt
+        }
+        destinationLocation {
+          id
+          locationLabel
+          latitude
+          longitude
+          isActive
+          addressID
+          plusCode
+          website
+          notes
+          notesHistory
+          tags
+          createdAt
+          updatedAt
+        }
+        boxes {
+          nextToken
+        }
+      }
+      locations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onUpdateBox = /* GraphQL */ `
+  subscription OnUpdateBox {
+    onUpdateBox {
+      id
+      title
+      contents
+      size
+      orgID
+      shipmentID
+      boxCategoryID
+      additionalBoxCategories {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+        boxes {
+          nextToken
+        }
+      }
+      isActive
+      barCode
+      qrCode
+      barCodePhoto
+      qrCodePhoto
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      boxCategory {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+        boxes {
+          nextToken
+        }
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryPhone {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        otherPhones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        notes
+        isActive
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxes {
+          nextToken
+        }
+        users {
+          nextToken
+        }
+      }
+      shipment {
+        id
+        name
+        description
+        isActive
+        startDate
+        deliveryDate
+        startLocationID
+        destinationLocationID
+        shipmentNotes
+        deliveryNotes
+        trackingId
+        weight
+        shipmentReceiver
+        status
+        statusHistory
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        startLocation {
+          id
+          locationLabel
+          latitude
+          longitude
+          isActive
+          addressID
+          plusCode
+          website
+          notes
+          notesHistory
+          tags
+          createdAt
+          updatedAt
+        }
+        destinationLocation {
+          id
+          locationLabel
+          latitude
+          longitude
+          isActive
+          addressID
+          plusCode
+          website
+          notes
+          notesHistory
+          tags
+          createdAt
+          updatedAt
+        }
+        boxes {
+          nextToken
+        }
+      }
+      locations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onDeleteBox = /* GraphQL */ `
+  subscription OnDeleteBox {
+    onDeleteBox {
+      id
+      title
+      contents
+      size
+      orgID
+      shipmentID
+      boxCategoryID
+      additionalBoxCategories {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+        boxes {
+          nextToken
+        }
+      }
+      isActive
+      barCode
+      qrCode
+      barCodePhoto
+      qrCodePhoto
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      boxCategory {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+        boxes {
+          nextToken
+        }
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryPhone {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        otherPhones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        notes
+        isActive
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxes {
+          nextToken
+        }
+        users {
+          nextToken
+        }
+      }
+      shipment {
+        id
+        name
+        description
+        isActive
+        startDate
+        deliveryDate
+        startLocationID
+        destinationLocationID
+        shipmentNotes
+        deliveryNotes
+        trackingId
+        weight
+        shipmentReceiver
+        status
+        statusHistory
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        startLocation {
+          id
+          locationLabel
+          latitude
+          longitude
+          isActive
+          addressID
+          plusCode
+          website
+          notes
+          notesHistory
+          tags
+          createdAt
+          updatedAt
+        }
+        destinationLocation {
+          id
+          locationLabel
+          latitude
+          longitude
+          isActive
+          addressID
+          plusCode
+          website
+          notes
+          notesHistory
+          tags
+          createdAt
+          updatedAt
+        }
+        boxes {
+          nextToken
+        }
+      }
+      locations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onCreateBoxLocation = /* GraphQL */ `
+  subscription OnCreateBoxLocation {
+    onCreateBoxLocation {
+      id
+      boxID
+      locationInfoID
+      scanDateTime
+      scannedByUserID
+      notes
+      isFinal
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      isActive
+      trackingInfoID
+      isFlagged
+      FlagNotes
+      boxStatus
+      destinationLocationInfoID
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      locationInfo {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      destinationLocationInfo {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      box {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        additionalBoxCategories {
+          id
+          name
+          isActive
+          createdAt
+          updatedAt
+        }
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxCategory {
+          id
+          name
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        shipment {
+          id
+          name
+          description
+          isActive
+          startDate
+          deliveryDate
+          startLocationID
+          destinationLocationID
+          shipmentNotes
+          deliveryNotes
+          trackingId
+          weight
+          shipmentReceiver
+          status
+          statusHistory
+          tags
+          imageID
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        locations {
+          nextToken
+        }
+      }
+      trackingInfo {
+        id
+        timeOfDelivery
+        userID
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        internalNotes
+        notes
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      scannedByUser {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+    }
+  }
+`;
+export const onUpdateBoxLocation = /* GraphQL */ `
+  subscription OnUpdateBoxLocation {
+    onUpdateBoxLocation {
+      id
+      boxID
+      locationInfoID
+      scanDateTime
+      scannedByUserID
+      notes
+      isFinal
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      isActive
+      trackingInfoID
+      isFlagged
+      FlagNotes
+      boxStatus
+      destinationLocationInfoID
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      locationInfo {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      destinationLocationInfo {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      box {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        additionalBoxCategories {
+          id
+          name
+          isActive
+          createdAt
+          updatedAt
+        }
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxCategory {
+          id
+          name
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        shipment {
+          id
+          name
+          description
+          isActive
+          startDate
+          deliveryDate
+          startLocationID
+          destinationLocationID
+          shipmentNotes
+          deliveryNotes
+          trackingId
+          weight
+          shipmentReceiver
+          status
+          statusHistory
+          tags
+          imageID
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        locations {
+          nextToken
+        }
+      }
+      trackingInfo {
+        id
+        timeOfDelivery
+        userID
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        internalNotes
+        notes
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      scannedByUser {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+    }
+  }
+`;
+export const onDeleteBoxLocation = /* GraphQL */ `
+  subscription OnDeleteBoxLocation {
+    onDeleteBoxLocation {
+      id
+      boxID
+      locationInfoID
+      scanDateTime
+      scannedByUserID
+      notes
+      isFinal
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      isActive
+      trackingInfoID
+      isFlagged
+      FlagNotes
+      boxStatus
+      destinationLocationInfoID
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      locationInfo {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      destinationLocationInfo {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        phones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+      box {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        additionalBoxCategories {
+          id
+          name
+          isActive
+          createdAt
+          updatedAt
+        }
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxCategory {
+          id
+          name
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        shipment {
+          id
+          name
+          description
+          isActive
+          startDate
+          deliveryDate
+          startLocationID
+          destinationLocationID
+          shipmentNotes
+          deliveryNotes
+          trackingId
+          weight
+          shipmentReceiver
+          status
+          statusHistory
+          tags
+          imageID
+          notes
+          notesHistory
+          createdAt
+          updatedAt
+        }
+        locations {
+          nextToken
+        }
+      }
+      trackingInfo {
+        id
+        timeOfDelivery
+        userID
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        internalNotes
+        notes
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      scannedByUser {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+    }
+  }
+`;
+export const onCreateTrackingInfo = /* GraphQL */ `
+  subscription OnCreateTrackingInfo {
+    onCreateTrackingInfo {
+      id
+      timeOfDelivery
+      userID
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      internalNotes
+      notes
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      boxLocations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+    }
+  }
+`;
+export const onUpdateTrackingInfo = /* GraphQL */ `
+  subscription OnUpdateTrackingInfo {
+    onUpdateTrackingInfo {
+      id
+      timeOfDelivery
+      userID
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      internalNotes
+      notes
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      boxLocations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+    }
+  }
+`;
+export const onDeleteTrackingInfo = /* GraphQL */ `
+  subscription OnDeleteTrackingInfo {
+    onDeleteTrackingInfo {
+      id
+      timeOfDelivery
+      userID
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      internalNotes
+      notes
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      boxLocations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        org {
+          id
+          name
+          description
+          addressID
+          email
+          primaryDomain
+          privacyPolicy
+          tags
+          imageID
+          notes
+          isActive
+          createdAt
+          updatedAt
+        }
+        boxLocations {
+          nextToken
+        }
+      }
+    }
+  }
+`;
+export const onCreateUser = /* GraphQL */ `
+  subscription OnCreateUser {
+    onCreateUser {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryPhone {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        otherPhones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        notes
+        isActive
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxes {
+          nextToken
+        }
+        users {
+          nextToken
+        }
+      }
+      boxLocations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onUpdateUser = /* GraphQL */ `
+  subscription OnUpdateUser {
+    onUpdateUser {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryPhone {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        otherPhones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        notes
+        isActive
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxes {
+          nextToken
+        }
+        users {
+          nextToken
+        }
+      }
+      boxLocations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
+export const onDeleteUser = /* GraphQL */ `
+  subscription OnDeleteUser {
+    onDeleteUser {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+        user {
+          id
+          name
+          orgID
+          hashedSecret
+          isActive
+          tags
+          imageID
+          status
+          statusHistory
+          internalNotes
+          notes
+          rank
+          notesHistory
+          createdAt
+          updatedAt
+        }
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryPhone {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        otherPhones {
+          id
+          phone
+          isActive
+          type
+          createdAt
+          updatedAt
+        }
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        images {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        notes
+        isActive
+        createdAt
+        updatedAt
+        image {
+          id
+          label
+          altText
+          src
+          userID
+          dateAdded
+          isActive
+          createdAt
+          updatedAt
+        }
+        address {
+          id
+          label
+          addressLine1
+          addressLine2
+          city
+          state
+          province
+          zipCode
+          postalCode
+          country
+          createdAt
+          updatedAt
+        }
+        boxes {
+          nextToken
+        }
+        users {
+          nextToken
+        }
+      }
+      boxLocations {
+        items {
+          id
+          boxID
+          locationInfoID
+          scanDateTime
+          scannedByUserID
+          notes
+          isFinal
+          tags
+          imageID
+          isActive
+          trackingInfoID
+          isFlagged
+          FlagNotes
+          boxStatus
+          destinationLocationInfoID
+          createdAt
+          updatedAt
+        }
+        nextToken
+      }
+    }
+  }
+`;
