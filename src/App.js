@@ -22,7 +22,7 @@ import {v4 as uuid} from 'uuid';
 
 Amplify.configure(aws_exports);
 
-const initialFormState = { id: "0", label: "box2", src: "", altText: "", userID: "0" };
+const initialFormState = { id: "0", label: "", src: "", altText: "", userID: "0" };
 
 const useStyles = makeStyles({
   table: {
@@ -196,7 +196,7 @@ function App() {
       </div>
       <hr />
 
-      <div style={{ height: 300, width: "80%" }}>
+      <div style={{ height: 400, width: "100%" }}>
         <DataGrid
           rows={boxes}
           columns={columns}
