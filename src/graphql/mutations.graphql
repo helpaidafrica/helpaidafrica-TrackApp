@@ -1,0 +1,4699 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateImage(
+  $input: CreateImageInput!
+  $condition: ModelImageConditionInput
+) {
+  createImage(input: $input, condition: $condition) {
+    id
+    label
+    altText
+    src
+    thumbnail_src
+    userID
+    dateAdded
+    isActive
+    createdAt
+    updatedAt
+    user {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+  }
+}
+mutation UpdateImage(
+  $input: UpdateImageInput!
+  $condition: ModelImageConditionInput
+) {
+  updateImage(input: $input, condition: $condition) {
+    id
+    label
+    altText
+    src
+    thumbnail_src
+    userID
+    dateAdded
+    isActive
+    createdAt
+    updatedAt
+    user {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+  }
+}
+mutation DeleteImage(
+  $input: DeleteImageInput!
+  $condition: ModelImageConditionInput
+) {
+  deleteImage(input: $input, condition: $condition) {
+    id
+    label
+    altText
+    src
+    thumbnail_src
+    userID
+    dateAdded
+    isActive
+    createdAt
+    updatedAt
+    user {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+  }
+}
+mutation CreateBoxCategory(
+  $input: CreateBoxCategoryInput!
+  $condition: ModelBoxCategoryConditionInput
+) {
+  createBoxCategory(input: $input, condition: $condition) {
+    id
+    name
+    isActive
+    createdAt
+    updatedAt
+    boxes {
+      items {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation UpdateBoxCategory(
+  $input: UpdateBoxCategoryInput!
+  $condition: ModelBoxCategoryConditionInput
+) {
+  updateBoxCategory(input: $input, condition: $condition) {
+    id
+    name
+    isActive
+    createdAt
+    updatedAt
+    boxes {
+      items {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation DeleteBoxCategory(
+  $input: DeleteBoxCategoryInput!
+  $condition: ModelBoxCategoryConditionInput
+) {
+  deleteBoxCategory(input: $input, condition: $condition) {
+    id
+    name
+    isActive
+    createdAt
+    updatedAt
+    boxes {
+      items {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation CreateApihealthCheckInfo(
+  $input: CreateApihealthCheckInfoInput!
+  $condition: ModelApihealthCheckInfoConditionInput
+) {
+  createApihealthCheckInfo(input: $input, condition: $condition) {
+    id
+    status
+    isActive
+    proceed
+    message
+    lastUpdated
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateApihealthCheckInfo(
+  $input: UpdateApihealthCheckInfoInput!
+  $condition: ModelApihealthCheckInfoConditionInput
+) {
+  updateApihealthCheckInfo(input: $input, condition: $condition) {
+    id
+    status
+    isActive
+    proceed
+    message
+    lastUpdated
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteApihealthCheckInfo(
+  $input: DeleteApihealthCheckInfoInput!
+  $condition: ModelApihealthCheckInfoConditionInput
+) {
+  deleteApihealthCheckInfo(input: $input, condition: $condition) {
+    id
+    status
+    isActive
+    proceed
+    message
+    lastUpdated
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateAddress(
+  $input: CreateAddressInput!
+  $condition: ModelAddressConditionInput
+) {
+  createAddress(input: $input, condition: $condition) {
+    id
+    label
+    addressLine1
+    addressLine2
+    city
+    state
+    province
+    zipCode
+    postalCode
+    country
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateAddress(
+  $input: UpdateAddressInput!
+  $condition: ModelAddressConditionInput
+) {
+  updateAddress(input: $input, condition: $condition) {
+    id
+    label
+    addressLine1
+    addressLine2
+    city
+    state
+    province
+    zipCode
+    postalCode
+    country
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteAddress(
+  $input: DeleteAddressInput!
+  $condition: ModelAddressConditionInput
+) {
+  deleteAddress(input: $input, condition: $condition) {
+    id
+    label
+    addressLine1
+    addressLine2
+    city
+    state
+    province
+    zipCode
+    postalCode
+    country
+    createdAt
+    updatedAt
+  }
+}
+mutation CreatePhone(
+  $input: CreatePhoneInput!
+  $condition: ModelPhoneConditionInput
+) {
+  createPhone(input: $input, condition: $condition) {
+    id
+    phone
+    isActive
+    type
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdatePhone(
+  $input: UpdatePhoneInput!
+  $condition: ModelPhoneConditionInput
+) {
+  updatePhone(input: $input, condition: $condition) {
+    id
+    phone
+    isActive
+    type
+    createdAt
+    updatedAt
+  }
+}
+mutation DeletePhone(
+  $input: DeletePhoneInput!
+  $condition: ModelPhoneConditionInput
+) {
+  deletePhone(input: $input, condition: $condition) {
+    id
+    phone
+    isActive
+    type
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateOrg(
+  $input: CreateOrgInput!
+  $condition: ModelOrgConditionInput
+) {
+  createOrg(input: $input, condition: $condition) {
+    id
+    name
+    description
+    addressID
+    email
+    primaryPhone {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+    otherPhones {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+    primaryDomain
+    privacyPolicy
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    notes
+    isActive
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    address {
+      id
+      label
+      addressLine1
+      addressLine2
+      city
+      state
+      province
+      zipCode
+      postalCode
+      country
+      createdAt
+      updatedAt
+    }
+    boxes {
+      items {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+    users {
+      items {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation UpdateOrg(
+  $input: UpdateOrgInput!
+  $condition: ModelOrgConditionInput
+) {
+  updateOrg(input: $input, condition: $condition) {
+    id
+    name
+    description
+    addressID
+    email
+    primaryPhone {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+    otherPhones {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+    primaryDomain
+    privacyPolicy
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    notes
+    isActive
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    address {
+      id
+      label
+      addressLine1
+      addressLine2
+      city
+      state
+      province
+      zipCode
+      postalCode
+      country
+      createdAt
+      updatedAt
+    }
+    boxes {
+      items {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+    users {
+      items {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation DeleteOrg(
+  $input: DeleteOrgInput!
+  $condition: ModelOrgConditionInput
+) {
+  deleteOrg(input: $input, condition: $condition) {
+    id
+    name
+    description
+    addressID
+    email
+    primaryPhone {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+    otherPhones {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+    primaryDomain
+    privacyPolicy
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    notes
+    isActive
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    address {
+      id
+      label
+      addressLine1
+      addressLine2
+      city
+      state
+      province
+      zipCode
+      postalCode
+      country
+      createdAt
+      updatedAt
+    }
+    boxes {
+      items {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+    users {
+      items {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation CreateLocationInfo(
+  $input: CreateLocationInfoInput!
+  $condition: ModelLocationInfoConditionInput
+) {
+  createLocationInfo(input: $input, condition: $condition) {
+    id
+    locationLabel
+    latitude
+    longitude
+    isActive
+    addressID
+    phones {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+    plusCode
+    website
+    notes
+    notesHistory
+    tags
+    createdAt
+    updatedAt
+    address {
+      id
+      label
+      addressLine1
+      addressLine2
+      city
+      state
+      province
+      zipCode
+      postalCode
+      country
+      createdAt
+      updatedAt
+    }
+    boxLocations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation UpdateLocationInfo(
+  $input: UpdateLocationInfoInput!
+  $condition: ModelLocationInfoConditionInput
+) {
+  updateLocationInfo(input: $input, condition: $condition) {
+    id
+    locationLabel
+    latitude
+    longitude
+    isActive
+    addressID
+    phones {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+    plusCode
+    website
+    notes
+    notesHistory
+    tags
+    createdAt
+    updatedAt
+    address {
+      id
+      label
+      addressLine1
+      addressLine2
+      city
+      state
+      province
+      zipCode
+      postalCode
+      country
+      createdAt
+      updatedAt
+    }
+    boxLocations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation DeleteLocationInfo(
+  $input: DeleteLocationInfoInput!
+  $condition: ModelLocationInfoConditionInput
+) {
+  deleteLocationInfo(input: $input, condition: $condition) {
+    id
+    locationLabel
+    latitude
+    longitude
+    isActive
+    addressID
+    phones {
+      id
+      phone
+      isActive
+      type
+      createdAt
+      updatedAt
+    }
+    plusCode
+    website
+    notes
+    notesHistory
+    tags
+    createdAt
+    updatedAt
+    address {
+      id
+      label
+      addressLine1
+      addressLine2
+      city
+      state
+      province
+      zipCode
+      postalCode
+      country
+      createdAt
+      updatedAt
+    }
+    boxLocations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation CreateShipment(
+  $input: CreateShipmentInput!
+  $condition: ModelShipmentConditionInput
+) {
+  createShipment(input: $input, condition: $condition) {
+    id
+    name
+    description
+    isActive
+    startDate
+    deliveryDate
+    startLocationID
+    destinationLocationID
+    shipmentNotes
+    deliveryNotes
+    trackingId
+    weight
+    shipmentReceiver
+    status
+    statusHistory
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    notes
+    notesHistory
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    startLocation {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    destinationLocation {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    boxes {
+      items {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation UpdateShipment(
+  $input: UpdateShipmentInput!
+  $condition: ModelShipmentConditionInput
+) {
+  updateShipment(input: $input, condition: $condition) {
+    id
+    name
+    description
+    isActive
+    startDate
+    deliveryDate
+    startLocationID
+    destinationLocationID
+    shipmentNotes
+    deliveryNotes
+    trackingId
+    weight
+    shipmentReceiver
+    status
+    statusHistory
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    notes
+    notesHistory
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    startLocation {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    destinationLocation {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    boxes {
+      items {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation DeleteShipment(
+  $input: DeleteShipmentInput!
+  $condition: ModelShipmentConditionInput
+) {
+  deleteShipment(input: $input, condition: $condition) {
+    id
+    name
+    description
+    isActive
+    startDate
+    deliveryDate
+    startLocationID
+    destinationLocationID
+    shipmentNotes
+    deliveryNotes
+    trackingId
+    weight
+    shipmentReceiver
+    status
+    statusHistory
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    notes
+    notesHistory
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    startLocation {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    destinationLocation {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    boxes {
+      items {
+        id
+        title
+        contents
+        size
+        orgID
+        shipmentID
+        boxCategoryID
+        isActive
+        barCode
+        qrCode
+        barCodePhoto
+        qrCodePhoto
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation CreateBox(
+  $input: CreateBoxInput!
+  $condition: ModelBoxConditionInput
+) {
+  createBox(input: $input, condition: $condition) {
+    id
+    title
+    contents
+    size
+    orgID
+    shipmentID
+    boxCategoryID
+    additionalBoxCategories {
+      id
+      name
+      isActive
+      createdAt
+      updatedAt
+      boxes {
+        nextToken
+      }
+    }
+    isActive
+    barCode
+    qrCode
+    barCodePhoto
+    qrCodePhoto
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    status
+    statusHistory
+    internalNotes
+    notes
+    notesHistory
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    boxCategory {
+      id
+      name
+      isActive
+      createdAt
+      updatedAt
+      boxes {
+        nextToken
+      }
+    }
+    org {
+      id
+      name
+      description
+      addressID
+      email
+      primaryPhone {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      otherPhones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      primaryDomain
+      privacyPolicy
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      notes
+      isActive
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxes {
+        nextToken
+      }
+      users {
+        nextToken
+      }
+    }
+    shipment {
+      id
+      name
+      description
+      isActive
+      startDate
+      deliveryDate
+      startLocationID
+      destinationLocationID
+      shipmentNotes
+      deliveryNotes
+      trackingId
+      weight
+      shipmentReceiver
+      status
+      statusHistory
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      startLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+      }
+      destinationLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+      }
+      boxes {
+        nextToken
+      }
+    }
+    locations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation UpdateBox(
+  $input: UpdateBoxInput!
+  $condition: ModelBoxConditionInput
+) {
+  updateBox(input: $input, condition: $condition) {
+    id
+    title
+    contents
+    size
+    orgID
+    shipmentID
+    boxCategoryID
+    additionalBoxCategories {
+      id
+      name
+      isActive
+      createdAt
+      updatedAt
+      boxes {
+        nextToken
+      }
+    }
+    isActive
+    barCode
+    qrCode
+    barCodePhoto
+    qrCodePhoto
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    status
+    statusHistory
+    internalNotes
+    notes
+    notesHistory
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    boxCategory {
+      id
+      name
+      isActive
+      createdAt
+      updatedAt
+      boxes {
+        nextToken
+      }
+    }
+    org {
+      id
+      name
+      description
+      addressID
+      email
+      primaryPhone {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      otherPhones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      primaryDomain
+      privacyPolicy
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      notes
+      isActive
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxes {
+        nextToken
+      }
+      users {
+        nextToken
+      }
+    }
+    shipment {
+      id
+      name
+      description
+      isActive
+      startDate
+      deliveryDate
+      startLocationID
+      destinationLocationID
+      shipmentNotes
+      deliveryNotes
+      trackingId
+      weight
+      shipmentReceiver
+      status
+      statusHistory
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      startLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+      }
+      destinationLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+      }
+      boxes {
+        nextToken
+      }
+    }
+    locations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation DeleteBox(
+  $input: DeleteBoxInput!
+  $condition: ModelBoxConditionInput
+) {
+  deleteBox(input: $input, condition: $condition) {
+    id
+    title
+    contents
+    size
+    orgID
+    shipmentID
+    boxCategoryID
+    additionalBoxCategories {
+      id
+      name
+      isActive
+      createdAt
+      updatedAt
+      boxes {
+        nextToken
+      }
+    }
+    isActive
+    barCode
+    qrCode
+    barCodePhoto
+    qrCodePhoto
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    status
+    statusHistory
+    internalNotes
+    notes
+    notesHistory
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    boxCategory {
+      id
+      name
+      isActive
+      createdAt
+      updatedAt
+      boxes {
+        nextToken
+      }
+    }
+    org {
+      id
+      name
+      description
+      addressID
+      email
+      primaryPhone {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      otherPhones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      primaryDomain
+      privacyPolicy
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      notes
+      isActive
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxes {
+        nextToken
+      }
+      users {
+        nextToken
+      }
+    }
+    shipment {
+      id
+      name
+      description
+      isActive
+      startDate
+      deliveryDate
+      startLocationID
+      destinationLocationID
+      shipmentNotes
+      deliveryNotes
+      trackingId
+      weight
+      shipmentReceiver
+      status
+      statusHistory
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      startLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+      }
+      destinationLocation {
+        id
+        locationLabel
+        latitude
+        longitude
+        isActive
+        addressID
+        plusCode
+        website
+        notes
+        notesHistory
+        tags
+        createdAt
+        updatedAt
+      }
+      boxes {
+        nextToken
+      }
+    }
+    locations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation CreateBoxLocation(
+  $input: CreateBoxLocationInput!
+  $condition: ModelBoxLocationConditionInput
+) {
+  createBoxLocation(input: $input, condition: $condition) {
+    id
+    boxID
+    locationInfoID
+    scanDateTime
+    scannedByUserID
+    notes
+    isFinal
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    isActive
+    trackingInfoID
+    isFlagged
+    FlagNotes
+    boxStatus
+    destinationLocationInfoID
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    locationInfo {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    destinationLocationInfo {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    box {
+      id
+      title
+      contents
+      size
+      orgID
+      shipmentID
+      boxCategoryID
+      additionalBoxCategories {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+      }
+      isActive
+      barCode
+      qrCode
+      barCodePhoto
+      qrCodePhoto
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxCategory {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      shipment {
+        id
+        name
+        description
+        isActive
+        startDate
+        deliveryDate
+        startLocationID
+        destinationLocationID
+        shipmentNotes
+        deliveryNotes
+        trackingId
+        weight
+        shipmentReceiver
+        status
+        statusHistory
+        tags
+        imageID
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      locations {
+        nextToken
+      }
+    }
+    trackingInfo {
+      id
+      timeOfDelivery
+      userID
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      internalNotes
+      notes
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    scannedByUser {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+  }
+}
+mutation UpdateBoxLocation(
+  $input: UpdateBoxLocationInput!
+  $condition: ModelBoxLocationConditionInput
+) {
+  updateBoxLocation(input: $input, condition: $condition) {
+    id
+    boxID
+    locationInfoID
+    scanDateTime
+    scannedByUserID
+    notes
+    isFinal
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    isActive
+    trackingInfoID
+    isFlagged
+    FlagNotes
+    boxStatus
+    destinationLocationInfoID
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    locationInfo {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    destinationLocationInfo {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    box {
+      id
+      title
+      contents
+      size
+      orgID
+      shipmentID
+      boxCategoryID
+      additionalBoxCategories {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+      }
+      isActive
+      barCode
+      qrCode
+      barCodePhoto
+      qrCodePhoto
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxCategory {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      shipment {
+        id
+        name
+        description
+        isActive
+        startDate
+        deliveryDate
+        startLocationID
+        destinationLocationID
+        shipmentNotes
+        deliveryNotes
+        trackingId
+        weight
+        shipmentReceiver
+        status
+        statusHistory
+        tags
+        imageID
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      locations {
+        nextToken
+      }
+    }
+    trackingInfo {
+      id
+      timeOfDelivery
+      userID
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      internalNotes
+      notes
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    scannedByUser {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+  }
+}
+mutation DeleteBoxLocation(
+  $input: DeleteBoxLocationInput!
+  $condition: ModelBoxLocationConditionInput
+) {
+  deleteBoxLocation(input: $input, condition: $condition) {
+    id
+    boxID
+    locationInfoID
+    scanDateTime
+    scannedByUserID
+    notes
+    isFinal
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    isActive
+    trackingInfoID
+    isFlagged
+    FlagNotes
+    boxStatus
+    destinationLocationInfoID
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    locationInfo {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    destinationLocationInfo {
+      id
+      locationLabel
+      latitude
+      longitude
+      isActive
+      addressID
+      phones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      plusCode
+      website
+      notes
+      notesHistory
+      tags
+      createdAt
+      updatedAt
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+    box {
+      id
+      title
+      contents
+      size
+      orgID
+      shipmentID
+      boxCategoryID
+      additionalBoxCategories {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+      }
+      isActive
+      barCode
+      qrCode
+      barCodePhoto
+      qrCodePhoto
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxCategory {
+        id
+        name
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      shipment {
+        id
+        name
+        description
+        isActive
+        startDate
+        deliveryDate
+        startLocationID
+        destinationLocationID
+        shipmentNotes
+        deliveryNotes
+        trackingId
+        weight
+        shipmentReceiver
+        status
+        statusHistory
+        tags
+        imageID
+        notes
+        notesHistory
+        createdAt
+        updatedAt
+      }
+      locations {
+        nextToken
+      }
+    }
+    trackingInfo {
+      id
+      timeOfDelivery
+      userID
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      internalNotes
+      notes
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    scannedByUser {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+  }
+}
+mutation CreateTrackingInfo(
+  $input: CreateTrackingInfoInput!
+  $condition: ModelTrackingInfoConditionInput
+) {
+  createTrackingInfo(input: $input, condition: $condition) {
+    id
+    timeOfDelivery
+    userID
+    isActive
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    internalNotes
+    notes
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    boxLocations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+    user {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+  }
+}
+mutation UpdateTrackingInfo(
+  $input: UpdateTrackingInfoInput!
+  $condition: ModelTrackingInfoConditionInput
+) {
+  updateTrackingInfo(input: $input, condition: $condition) {
+    id
+    timeOfDelivery
+    userID
+    isActive
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    internalNotes
+    notes
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    boxLocations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+    user {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+  }
+}
+mutation DeleteTrackingInfo(
+  $input: DeleteTrackingInfoInput!
+  $condition: ModelTrackingInfoConditionInput
+) {
+  deleteTrackingInfo(input: $input, condition: $condition) {
+    id
+    timeOfDelivery
+    userID
+    isActive
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    internalNotes
+    notes
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    boxLocations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+    user {
+      id
+      name
+      orgID
+      hashedSecret
+      isActive
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      status
+      statusHistory
+      internalNotes
+      notes
+      rank
+      notesHistory
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      org {
+        id
+        name
+        description
+        addressID
+        email
+        primaryDomain
+        privacyPolicy
+        tags
+        imageID
+        notes
+        isActive
+        createdAt
+        updatedAt
+      }
+      boxLocations {
+        nextToken
+      }
+    }
+  }
+}
+mutation CreateUser(
+  $input: CreateUserInput!
+  $condition: ModelUserConditionInput
+) {
+  createUser(input: $input, condition: $condition) {
+    id
+    name
+    orgID
+    hashedSecret
+    isActive
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    status
+    statusHistory
+    internalNotes
+    notes
+    rank
+    notesHistory
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    org {
+      id
+      name
+      description
+      addressID
+      email
+      primaryPhone {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      otherPhones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      primaryDomain
+      privacyPolicy
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      notes
+      isActive
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxes {
+        nextToken
+      }
+      users {
+        nextToken
+      }
+    }
+    boxLocations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation UpdateUser(
+  $input: UpdateUserInput!
+  $condition: ModelUserConditionInput
+) {
+  updateUser(input: $input, condition: $condition) {
+    id
+    name
+    orgID
+    hashedSecret
+    isActive
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    status
+    statusHistory
+    internalNotes
+    notes
+    rank
+    notesHistory
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    org {
+      id
+      name
+      description
+      addressID
+      email
+      primaryPhone {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      otherPhones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      primaryDomain
+      privacyPolicy
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      notes
+      isActive
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxes {
+        nextToken
+      }
+      users {
+        nextToken
+      }
+    }
+    boxLocations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}
+mutation DeleteUser(
+  $input: DeleteUserInput!
+  $condition: ModelUserConditionInput
+) {
+  deleteUser(input: $input, condition: $condition) {
+    id
+    name
+    orgID
+    hashedSecret
+    isActive
+    tags
+    imageID
+    images {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    status
+    statusHistory
+    internalNotes
+    notes
+    rank
+    notesHistory
+    createdAt
+    updatedAt
+    image {
+      id
+      label
+      altText
+      src
+      thumbnail_src
+      userID
+      dateAdded
+      isActive
+      createdAt
+      updatedAt
+      user {
+        id
+        name
+        orgID
+        hashedSecret
+        isActive
+        tags
+        imageID
+        status
+        statusHistory
+        internalNotes
+        notes
+        rank
+        notesHistory
+        createdAt
+        updatedAt
+      }
+    }
+    org {
+      id
+      name
+      description
+      addressID
+      email
+      primaryPhone {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      otherPhones {
+        id
+        phone
+        isActive
+        type
+        createdAt
+        updatedAt
+      }
+      primaryDomain
+      privacyPolicy
+      tags
+      imageID
+      images {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      notes
+      isActive
+      createdAt
+      updatedAt
+      image {
+        id
+        label
+        altText
+        src
+        thumbnail_src
+        userID
+        dateAdded
+        isActive
+        createdAt
+        updatedAt
+      }
+      address {
+        id
+        label
+        addressLine1
+        addressLine2
+        city
+        state
+        province
+        zipCode
+        postalCode
+        country
+        createdAt
+        updatedAt
+      }
+      boxes {
+        nextToken
+      }
+      users {
+        nextToken
+      }
+    }
+    boxLocations {
+      items {
+        id
+        boxID
+        locationInfoID
+        scanDateTime
+        scannedByUserID
+        notes
+        isFinal
+        tags
+        imageID
+        isActive
+        trackingInfoID
+        isFlagged
+        FlagNotes
+        boxStatus
+        destinationLocationInfoID
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+}

@@ -14,6 +14,7 @@ export const listImages = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -48,6 +49,7 @@ export const getImage = /* GraphQL */ `
       label
       altText
       src
+      thumbnail_src
       userID
       dateAdded
       isActive
@@ -66,6 +68,7 @@ export const getImage = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -85,6 +88,7 @@ export const getImage = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -135,6 +139,7 @@ export const imagesByUser = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -371,6 +376,7 @@ export const listOrgs = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -386,6 +392,7 @@ export const listOrgs = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -450,6 +457,7 @@ export const getOrg = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -482,6 +490,7 @@ export const getOrg = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -712,6 +721,7 @@ export const listShipments = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -727,6 +737,7 @@ export const listShipments = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -796,6 +807,7 @@ export const getShipment = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -828,6 +840,7 @@ export const getShipment = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -994,6 +1007,7 @@ export const listBoxs = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1012,6 +1026,7 @@ export const listBoxs = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1103,6 +1118,7 @@ export const getBox = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -1138,6 +1154,7 @@ export const getBox = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -1202,6 +1219,7 @@ export const getBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1217,6 +1235,7 @@ export const getBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1267,6 +1286,7 @@ export const getBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1282,6 +1302,7 @@ export const getBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1389,6 +1410,7 @@ export const boxByOrgId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1407,6 +1429,7 @@ export const boxByOrgId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1510,6 +1533,7 @@ export const boxByShipmentId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1528,6 +1552,7 @@ export const boxByShipmentId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1629,6 +1654,7 @@ export const boxByBoxCategoryId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1647,6 +1673,7 @@ export const boxByBoxCategoryId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1748,6 +1775,7 @@ export const boxByTitle = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1766,6 +1794,7 @@ export const boxByTitle = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1867,6 +1896,7 @@ export const boxByQrCode = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1885,6 +1915,7 @@ export const boxByQrCode = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1988,6 +2019,7 @@ export const boxByStatus = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2006,6 +2038,7 @@ export const boxByStatus = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2082,6 +2115,7 @@ export const getBoxLocation = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -2118,6 +2152,7 @@ export const getBoxLocation = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -2248,6 +2283,7 @@ export const getBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2266,6 +2302,7 @@ export const getBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2333,6 +2370,7 @@ export const getBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2348,6 +2386,7 @@ export const getBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2388,6 +2427,7 @@ export const getBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2407,6 +2447,7 @@ export const getBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2457,6 +2498,7 @@ export const listBoxLocations = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2476,6 +2518,7 @@ export const listBoxLocations = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2601,6 +2644,7 @@ export const boxLocationsByBoxId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2620,6 +2664,7 @@ export const boxLocationsByBoxId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2745,6 +2790,7 @@ export const boxLocationInfoByLocationInfoId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2764,6 +2810,7 @@ export const boxLocationInfoByLocationInfoId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2889,6 +2936,7 @@ export const boxLocationByScannedUserId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2908,6 +2956,7 @@ export const boxLocationByScannedUserId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3033,6 +3082,7 @@ export const boxLocationByTrackingInfoId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3052,6 +3102,7 @@ export const boxLocationByTrackingInfoId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3164,6 +3215,7 @@ export const listTrackingInfos = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3179,6 +3231,7 @@ export const listTrackingInfos = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3224,6 +3277,7 @@ export const getTrackingInfo = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3256,6 +3310,7 @@ export const getTrackingInfo = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3314,6 +3369,7 @@ export const getTrackingInfo = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3333,6 +3389,7 @@ export const getTrackingInfo = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3381,6 +3438,7 @@ export const listUsers = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3400,6 +3458,7 @@ export const listUsers = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3444,6 +3503,7 @@ export const getUser = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3480,6 +3540,7 @@ export const getUser = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3534,6 +3595,7 @@ export const getUser = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3549,6 +3611,7 @@ export const getUser = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3629,6 +3692,7 @@ export const userByOrgId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3648,6 +3712,7 @@ export const userByOrgId = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive

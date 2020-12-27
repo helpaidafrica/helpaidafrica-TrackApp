@@ -9,6 +9,7 @@ export const onCreateImage = /* GraphQL */ `
       label
       altText
       src
+      thumbnail_src
       userID
       dateAdded
       isActive
@@ -27,6 +28,7 @@ export const onCreateImage = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -46,6 +48,7 @@ export const onCreateImage = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -81,6 +84,7 @@ export const onUpdateImage = /* GraphQL */ `
       label
       altText
       src
+      thumbnail_src
       userID
       dateAdded
       isActive
@@ -99,6 +103,7 @@ export const onUpdateImage = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -118,6 +123,7 @@ export const onUpdateImage = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -153,6 +159,7 @@ export const onDeleteImage = /* GraphQL */ `
       label
       altText
       src
+      thumbnail_src
       userID
       dateAdded
       isActive
@@ -171,6 +178,7 @@ export const onDeleteImage = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -190,6 +198,7 @@ export const onDeleteImage = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -494,6 +503,7 @@ export const onCreateOrg = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -526,6 +536,7 @@ export const onCreateOrg = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -645,6 +656,7 @@ export const onUpdateOrg = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -677,6 +689,7 @@ export const onUpdateOrg = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -796,6 +809,7 @@ export const onDeleteOrg = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -828,6 +842,7 @@ export const onDeleteOrg = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -1128,6 +1143,7 @@ export const onCreateShipment = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -1160,6 +1176,7 @@ export const onCreateShipment = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -1317,6 +1334,7 @@ export const onUpdateShipment = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -1349,6 +1367,7 @@ export const onUpdateShipment = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -1506,6 +1525,7 @@ export const onDeleteShipment = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -1538,6 +1558,7 @@ export const onDeleteShipment = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -1702,6 +1723,7 @@ export const onCreateBox = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -1737,6 +1759,7 @@ export const onCreateBox = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -1801,6 +1824,7 @@ export const onCreateBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1816,6 +1840,7 @@ export const onCreateBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1866,6 +1891,7 @@ export const onCreateBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1881,6 +1907,7 @@ export const onCreateBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -1978,6 +2005,7 @@ export const onUpdateBox = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -2013,6 +2041,7 @@ export const onUpdateBox = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -2077,6 +2106,7 @@ export const onUpdateBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2092,6 +2122,7 @@ export const onUpdateBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2142,6 +2173,7 @@ export const onUpdateBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2157,6 +2189,7 @@ export const onUpdateBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2254,6 +2287,7 @@ export const onDeleteBox = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -2289,6 +2323,7 @@ export const onDeleteBox = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -2353,6 +2388,7 @@ export const onDeleteBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2368,6 +2404,7 @@ export const onDeleteBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2418,6 +2455,7 @@ export const onDeleteBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2433,6 +2471,7 @@ export const onDeleteBox = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2515,6 +2554,7 @@ export const onCreateBoxLocation = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -2551,6 +2591,7 @@ export const onCreateBoxLocation = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -2681,6 +2722,7 @@ export const onCreateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2699,6 +2741,7 @@ export const onCreateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2766,6 +2809,7 @@ export const onCreateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2781,6 +2825,7 @@ export const onCreateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2821,6 +2866,7 @@ export const onCreateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2840,6 +2886,7 @@ export const onCreateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -2885,6 +2932,7 @@ export const onUpdateBoxLocation = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -2921,6 +2969,7 @@ export const onUpdateBoxLocation = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3051,6 +3100,7 @@ export const onUpdateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3069,6 +3119,7 @@ export const onUpdateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3136,6 +3187,7 @@ export const onUpdateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3151,6 +3203,7 @@ export const onUpdateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3191,6 +3244,7 @@ export const onUpdateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3210,6 +3264,7 @@ export const onUpdateBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3255,6 +3310,7 @@ export const onDeleteBoxLocation = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3291,6 +3347,7 @@ export const onDeleteBoxLocation = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3421,6 +3478,7 @@ export const onDeleteBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3439,6 +3497,7 @@ export const onDeleteBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3506,6 +3565,7 @@ export const onDeleteBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3521,6 +3581,7 @@ export const onDeleteBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3561,6 +3622,7 @@ export const onDeleteBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3580,6 +3642,7 @@ export const onDeleteBoxLocation = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3622,6 +3685,7 @@ export const onCreateTrackingInfo = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3654,6 +3718,7 @@ export const onCreateTrackingInfo = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3712,6 +3777,7 @@ export const onCreateTrackingInfo = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3731,6 +3797,7 @@ export const onCreateTrackingInfo = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3773,6 +3840,7 @@ export const onUpdateTrackingInfo = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3805,6 +3873,7 @@ export const onUpdateTrackingInfo = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3863,6 +3932,7 @@ export const onUpdateTrackingInfo = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3882,6 +3952,7 @@ export const onUpdateTrackingInfo = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -3924,6 +3995,7 @@ export const onDeleteTrackingInfo = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -3956,6 +4028,7 @@ export const onDeleteTrackingInfo = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -4014,6 +4087,7 @@ export const onDeleteTrackingInfo = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -4033,6 +4107,7 @@ export const onDeleteTrackingInfo = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -4076,6 +4151,7 @@ export const onCreateUser = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -4112,6 +4188,7 @@ export const onCreateUser = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -4166,6 +4243,7 @@ export const onCreateUser = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -4181,6 +4259,7 @@ export const onCreateUser = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -4248,6 +4327,7 @@ export const onUpdateUser = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -4284,6 +4364,7 @@ export const onUpdateUser = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -4338,6 +4419,7 @@ export const onUpdateUser = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -4353,6 +4435,7 @@ export const onUpdateUser = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -4420,6 +4503,7 @@ export const onDeleteUser = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -4456,6 +4540,7 @@ export const onDeleteUser = /* GraphQL */ `
         label
         altText
         src
+        thumbnail_src
         userID
         dateAdded
         isActive
@@ -4510,6 +4595,7 @@ export const onDeleteUser = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
@@ -4525,6 +4611,7 @@ export const onDeleteUser = /* GraphQL */ `
           label
           altText
           src
+          thumbnail_src
           userID
           dateAdded
           isActive
