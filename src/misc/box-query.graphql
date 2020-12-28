@@ -1,0 +1,46 @@
+query AllActiveBoxes {
+  listBoxs(filter: {isActive: {eq: true}}) {
+    items {
+      id
+      isActive
+      status
+      title
+      notes
+      boxCategoryID
+      locations {
+        items {
+          boxID
+          boxStatus
+          destinationLocationInfo {
+            id
+            isActive
+            latitude
+            longitude
+            locationLabel
+            notes
+            plusCode
+            tags
+          }
+          isActive
+          isFinal
+          isFlagged
+          scannedByUserID
+          scanDateTime
+          notes
+          trackingInfoID
+        }
+      }
+      isActive
+      orgID
+      qrCode
+      size
+      shipmentID
+      barCode
+      contents
+      createdAt
+      internalNotes
+      tags
+      updatedAt
+    }
+  }
+}
